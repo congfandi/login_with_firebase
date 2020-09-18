@@ -2,7 +2,7 @@
 
 Abersoft Test Skill of Flutter App
 
-![Demo](demo.gif)
+![Demo](potongan.mov)
 
 ## Getting Started
 
