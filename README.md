@@ -14,7 +14,7 @@ Register using random email and password
 
 ### Logout
 
-In Home Page, Tap the image and you will go again to welcome screen and it will make destroy your session.
+In Home Page, Tap the image and you will go again to welcome screen and it's will be destroy your session.
 
 ### Library
 
@@ -31,4 +31,6 @@ In Home Page, Tap the image and you will go again to welcome screen and it will 
  This is for authentification
  
  **firebase_core: ^0.5.0**
+ 
+ We have to add this lib event you want to use firebase to your project
  
