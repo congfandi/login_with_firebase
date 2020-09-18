@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "261985294091",
+    "firebase_url": "https://my-apps-2660a.firebaseio.com",
+    "project_id": "my-apps-2660a",
+    "storage_bucket": "my-apps-2660a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261985294091:android:33d884c4481614c076b40e",
+        "android_client_info": {
+          "package_name": "com.thengoding.abersoft_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261985294091-jounpa2hsa7kc7te0alk594vu4qe1ljb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMTQEs-rYE09j8Svw_qW2Zr9WOC6z6ZYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261985294091-jounpa2hsa7kc7te0alk594vu4qe1ljb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
