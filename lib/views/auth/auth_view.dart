@@ -1,6 +1,6 @@
 /*
  * abersoft_test
- *     register_view.dart
+ *     auth_view.dart
  *     Created by Cong Fandi on 18/9/2020
  *     email 	    : congfandi@gmail.com
  *     website 	: https://www.thengoding.com

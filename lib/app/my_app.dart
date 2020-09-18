@@ -7,6 +7,7 @@
  *     Copyright © 2020 Cong Fandi. All rights reserved.
  */
 
+import 'package:abersoft_test/app/app_theme.dart';
 import 'package:abersoft_test/views/auth/auth_view.dart';
 import 'package:abersoft_test/views/dashboard/home_view.dart';
 import 'package:abersoft_test/views/welcome_view.dart';
@@ -14,6 +15,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
+  final AppTheme _theme = new AppTheme();
   final routes = {
     "/welcome": (_) => WelcomeView(),
     "/auth": (_) => AuthView(),
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
       routes: routes,
       title: 'Abersoft Test',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: _theme.appColor,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       initialRoute: auth.currentUser == null ? "/welcome" : "/home",
